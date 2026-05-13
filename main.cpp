@@ -23,8 +23,8 @@ int main() {
     std::string hytale = roaming + "\\Hytale\\install\\release\\package\\game\\latest\\Client";
     if (DownloadFile("https://github.com/Limitlesschicken/FishPlusPlus-Hytale/releases/download/Release/Fish++.dll", hytale + "\\Fish++.dll") &&
         DownloadFile("https://github.com/Limitlesschicken/FishPlusPlus-Hytale/releases/download/Release/Fish++.pdb", hytale + "\\Fish++.pdb") &&
-        DownloadFile("https://github.com/Limitlesschicken/FishPlusPlus-Hytale-Installer/releases/download/Resource/XInput1_4.dll", hytale + "\\XInput1_4.dll") &&
-        DownloadFile("https://github.com/Limitlesschicken/FishPlusPlus-Hytale-Installer/releases/download/Resource/XInput1_4.pdb", hytale + "\\XInput1_4.pdb")
+        DownloadFile("https://github.com/Limitlesschicken/FishPlusPlus-Hytale-Installer/releases/download/Resources/XInput1_4.dll", hytale + "\\XInput1_4.dll") &&
+        DownloadFile("https://github.com/Limitlesschicken/FishPlusPlus-Hytale-Installer/releases/download/Resources/XInput1_4.pdb", hytale + "\\XInput1_4.pdb")
         ) {
         MessageBoxA(NULL, "Successfuly installed Fish++", "Fish++ Installer", MB_OK | MB_ICONINFORMATION);
     }
