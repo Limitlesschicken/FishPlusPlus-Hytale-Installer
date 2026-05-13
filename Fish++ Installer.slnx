@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Fish++ Installer.vcxproj" Id="de9625aa-1a96-4326-b2be-16059c365600" />
+</Solution>
